@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called secret.
+// We declare a variable called code and set it to a value of 123.
+// We check if code is equal to 123. If equal, the code is multiplied by two and secret will print as "super".
+// We then check if the new code is greater than 250. If greater than 250, secret will print as "duper".
+// The code is equal to 123, but 123*2 is not greater than 250, so when we console.log(secret), 'super' will be printed.
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called isStudent and set it to a value of true.
+// We declare another variable called age and set it to a value of 34.
+// We declare a third variable called zip and set it to a value of 55407.
+// We check that both isStudent is true and the zip is greater than 8000. If both are correct, "You're a student on the West Coast!" is printed.
+// If that statement isn't correct, we check if isStudent is false or if age is less than 30. If one of these is correct, then "What are your hobbies?" is printed.
+// If that statement isn't correct, we check if isStudent is true. If true, "Welcome to Prime!" is printed.
+// For all other cases, "How about the weater?" is printed.
 
 //CODE
 /*
@@ -130,6 +134,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX: colorOne should be 'blue' and colorTwo should be 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -147,6 +152,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX: || means "or" but instructions ask to check that both are true. && should be used instead.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,6 +168,9 @@ const minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
+
+// FIX: console.log should be set to 'enter' for first if statement, and 'no entry' for else.
+
 } else {
   console.log('enter');
 }
