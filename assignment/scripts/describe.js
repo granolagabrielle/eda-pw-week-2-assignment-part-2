@@ -28,7 +28,7 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and set it to Dane as a value.
 // We check if name is equal to Mary. If name is equal to Mary, we console.log 'Hi, Mary!'.
-// If name is not equal to Mary, we console.log 'How do you do?'.
+// Otherwise, we console.log 'How do you do?'.
 // Name is not equal to Mary, so 'How do you do?' would be printed.
 
 //CODE
@@ -47,8 +47,8 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called secret.
 // We declare a variable called code and set it to a value of 123.
-// We check if code is equal to 123. If equal, the code is multiplied by two and secret will print as "super".
-// We then check if the new code is greater than 250. If greater than 250, secret will print as "duper".
+// We check if code is equal to 123. If equal, the code is multiplied by two and secret will be set to "super".
+// We then check if the new code is greater than 250. If greater than 250, secret will be set to "duper".
 // The code is equal to 123, but 123*2 is not greater than 250, so when we console.log(secret), 'super' will be printed.
 
 //CODE
@@ -74,9 +74,9 @@ console.log(secret)
 // We declare a variable called isStudent and set it to a value of true.
 // We declare another variable called age and set it to a value of 34.
 // We declare a third variable called zip and set it to a value of 55407.
-// We check that both isStudent is true and the zip is greater than 8000. If both are correct, "You're a student on the West Coast!" is printed.
-// If that statement isn't correct, we check if isStudent is false or if age is less than 30. If one of these is correct, then "What are your hobbies?" is printed.
-// If that statement isn't correct, we check if isStudent is true. If true, "Welcome to Prime!" is printed.
+// We check that both isStudent is true and the zip is greater than 80000. If both are true, "You're a student on the West Coast!" is printed.
+// If that statement is false, we check if isStudent is false or if age is less than 30. If one of these is true, then "What are your hobbies?" is printed.
+// If that statement is false, we check if isStudent is true. If true, "Welcome to Prime!" is printed.
 // For all other cases, "How about the weater?" is printed.
 
 //CODE
