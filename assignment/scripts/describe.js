@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as a value.
+// We check if name is equal to Mary. If name is equal to Mary, we console.log 'Hi, Mary!'.
+// If name is not equal to Mary, we console.log 'How do you do?'.
+// Name is not equal to Mary, so 'How do you do?' would be printed.
 
 //CODE
 /*
